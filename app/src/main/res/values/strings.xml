@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidDataBinding</string>
+
+    <string name="nameFormat">Full Name: %1$s:%2$s</string>
+    <string name="nameFormatWithAge">Hello %1$s %2$s, %3$d ages</string>
+    <string name="colorAccent">colorAccent</string>
+    <string name="colorPrimary">colorPrimary</string>
+
+    <plurals name="banana">
+        <item quantity="zero">zero bananas</item>
+        <item quantity="one">one banana</item>
+        <item quantity="two">two bananas</item>
+        <item quantity="few">few bananas</item>
+        <item quantity="many">many bananas</item>
+        <item quantity="other">other bananas</item>
+    </plurals>
+
+    <plurals name="orange">
+        <item quantity="one">Have an orange</item>
+        <item quantity="other">Have %d oranges</item>
+    </plurals>
+</resources>
