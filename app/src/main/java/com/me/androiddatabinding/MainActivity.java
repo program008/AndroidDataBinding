@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Button btnCollection = (Button) findViewById(R.id.btn_collection);
                 Button btnInclude = (Button) findViewById(R.id.btn_include);
                 Button btnDynamic = (Button) findViewById(R.id.btn_dynamic);
+                Button btnCustom = (Button) findViewById(R.id.btn_custom);
 
 
                 btnBasic.setOnClickListener(view ->
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
 
                 btnDynamic.setOnClickListener(view ->
                 startActivity(new Intent(this,DynamicActivity.class)));
+
+                btnCustom.setOnClickListener(view ->
+                startActivity(new Intent(this,CustomBindingActivity.class)));
 
         }
 }

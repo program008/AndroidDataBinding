@@ -86,5 +86,13 @@
         android:layout_below="@+id/btn_include"
         android:text="start DynamicActivity"/>
 
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_dynamic"
+        android:layout_below="@+id/btn_dynamic"
+        android:text="start CustomBindindAcitivty"/>
+
 
 </RelativeLayout>
