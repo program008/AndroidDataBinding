@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
                 Button btnConversion = (Button) findViewById(R.id.btn_conversion);
                 Button btnResource = (Button) findViewById(R.id.btn_resource);
                 Button btnCollection = (Button) findViewById(R.id.btn_collection);
+                Button btnInclude = (Button) findViewById(R.id.btn_include);
+
 
                 btnBasic.setOnClickListener(view ->
                         startActivity(new Intent(this, BasicActivity.class)));
@@ -41,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
                 btnCollection.setOnClickListener(view ->
                 startActivity(new Intent(this,CollectionActivity.class)));
+
+                btnInclude.setOnClickListener(view ->
+                startActivity(new Intent(this,IncludeActivity.class)));
 
         }
 }

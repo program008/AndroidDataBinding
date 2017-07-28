@@ -54,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btn_conversion"
+        android:textAllCaps="false"
         android:text="start ResourceActivity"/>
 
     <Button
@@ -63,6 +64,18 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btn_resource"
         android:layout_marginTop="12dp"
+        android:textAllCaps="false"
         android:text="start collectionActivity"/>
+
+    <Button
+        android:id="@+id/btn_include"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_collection"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:textAllCaps="false"
+        android:text="start IncludeActivity"/>
 
 </RelativeLayout>
