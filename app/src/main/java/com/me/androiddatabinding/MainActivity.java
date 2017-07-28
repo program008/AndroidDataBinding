@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 Button btnViewStub = (Button) findViewById(R.id.btn_view_stub);
                 Button btnConversion = (Button) findViewById(R.id.btn_conversion);
                 Button btnResource = (Button) findViewById(R.id.btn_resource);
+                Button btnCollection = (Button) findViewById(R.id.btn_collection);
 
                 btnBasic.setOnClickListener(view ->
                         startActivity(new Intent(this, BasicActivity.class)));
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
                 btnResource.setOnClickListener(view ->
                 startActivity(new Intent(this,ResourceActivity.class)));
+
+                btnCollection.setOnClickListener(view ->
+                startActivity(new Intent(this,CollectionActivity.class)));
 
         }
 }
