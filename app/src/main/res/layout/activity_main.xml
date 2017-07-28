@@ -78,4 +78,13 @@
         android:textAllCaps="false"
         android:text="start IncludeActivity"/>
 
+    <Button
+        android:id="@+id/btn_dynamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_include"
+        android:layout_below="@+id/btn_include"
+        android:text="start DynamicActivity"/>
+
+
 </RelativeLayout>
